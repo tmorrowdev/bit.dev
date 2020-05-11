@@ -11,8 +11,7 @@ import { DialogComponent } from './dialog/components/dialog/dialog.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from './dialog/components/button/button.module';
-import { DialogModule } from './dialog/components/dialog/dialog.module';
+import { DialogModule } from './dialog/dialog.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,7 +20,6 @@ import { DialogModule } from './dialog/components/dialog/dialog.module';
     BrowserModule,
     BrowserAnimationsModule,
     MatProgressSpinnerModule,
-    ButtonModule,
     DialogModule,
     MatButtonModule,
     MatDialogModule
